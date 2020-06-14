@@ -1,3 +1,13 @@
+/**
+* Template Name: TheEvent - v2.1.0
+* Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+* Author: BootstrapMade.com
+* License: https://bootstrapmade.com/license/
+*/
+
+/*--------------------------------------------------------------
+# General
+--------------------------------------------------------------*/
 body {
   background: #fff;
   color: #2f3138;
@@ -181,7 +191,9 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #header #logo img {
-  margin-top: -55px;
+  padding: 0;
+  margin: -33px;
+    margin-left: 0px;
 }
 
 /*--------------------------------------------------------------
@@ -703,6 +715,9 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin-bottom: 20px;
   color: #fff;
 }
+ 
+
+
 
 /*--------------------------------------------------------------
 # Speakers Section
@@ -1375,8 +1390,8 @@ $font-stack: 'Lato', sans-serif
 }
 
 #footer .footer-top .footer-info img {
-  height: auto;
-  margin-top: -55px;
+  height: 40px;
+  margin-bottom: 10px;
 }
 
 #footer .footer-top .footer-info p {
@@ -1385,7 +1400,6 @@ $font-stack: 'Lato', sans-serif
   margin-bottom: 0;
   font-family: "Raleway", sans-serif;
   color: #fff;
-  margin-top: -30px;
 }
 
 #footer .footer-top .social-links a {
