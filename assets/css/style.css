@@ -1358,6 +1358,12 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
+#foot
+{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+
 #footer {
   background: #101522;
   padding: 10px 0 15px 0;
