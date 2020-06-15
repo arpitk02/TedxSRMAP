@@ -1360,18 +1360,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 #footer {
   background: #101522;
-  padding: 0 0 25px 0;
+  padding: 10px 0 15px 0;
   color: #eee;
   font-size: 14px;
 }
 
 #footer .footer-top {
   background: #040919;
-  padding: 60px 0 30px 0;
 }
 
 #footer .footer-top .footer-info {
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 #footer .footer-top .footer-info h3 {
@@ -1385,8 +1384,8 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-info img {
-  height: 40px;
-  margin-bottom: 10px;
+  margin-top: -55px;
+  margin-bottom: -35px;
 }
 
 #footer .footer-top .footer-info p {
@@ -1404,7 +1403,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #eee;
   line-height: 1;
   padding: 8px 0;
-  margin-right: 4px;
+  margin-right: 14px;
   border-radius: 50%;
   text-align: center;
   width: 36px;
@@ -1428,7 +1427,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-links {
-  margin-bottom: 30px;
+  margin-bottom: 10px;  
 }
 
 #footer .footer-top .footer-links ul {
@@ -1461,8 +1460,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #footer .footer-top .footer-contact {
-  margin-bottom: 30px;
-    margin-right: auto;
+  margin-bottom: 10px;
 }
 
 #footer .footer-top .footer-contact p {
@@ -1504,3 +1502,4 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 13px;
   color: #ddd;
 }
+
