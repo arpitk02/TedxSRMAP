@@ -70,7 +70,6 @@ h1, h2, h3, h4, h5, h6 {
   border-radius: 50px;
   right: 15px;
   bottom: 15px;
-  transition: background 0.5s ease-in-out;
 }
 
 .back-to-top i {
@@ -192,8 +191,8 @@ h1, h2, h3, h4, h5, h6 {
 
 #header #logo img {
   padding: 0;
-  margin: -33px;
-    margin-left: 0px;
+  margin-top: -55px;
+  margin-left: 0px;
 }
 
 /*--------------------------------------------------------------
@@ -818,17 +817,13 @@ body.mobile-nav-active #mobile-nav-toggle {
 /*--------------------------------------------------------------
 # Schedule Section
 --------------------------------------------------------------*/
-$bg: white
 
-$color: red;
-
-$font-stack: 'Lato', sans-serif
 #schedule {
   padding: 60px 0 60px 0;
-    font: 100% $font-stack;
+    font: 100% ;
     font-weight: 300;
     height: 100%;
-    background-color: $bg;
+
 }
 
 #schedule .nav-tabs {
