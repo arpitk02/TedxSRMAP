@@ -478,7 +478,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 #intro {
   width: 100%;
-  height: 100vh;
+  height: 1150px;
   /*background: url(../img/intro-bg.jpg) top center;*/
   background-size: cover;
   overflow: hidden;
@@ -769,7 +769,7 @@ body.mobile-nav-active #mobile-nav-toggle {
  p 
   {
     letter-spacing: 3px;
-    color: red;
+    color: ghostwhite;
 
   }
   
