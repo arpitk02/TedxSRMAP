@@ -1,10 +1,3 @@
-/**
-* Template Name: TheEvent - v2.1.0
-* Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -478,16 +471,46 @@ body.mobile-nav-active #mobile-nav-toggle {
 --------------------------------------------------------------*/
 #intro {
   width: 100%;
-  height: 1150px;
+  height: 1140px;
   /*background: url(../img/intro-bg.jpg) top center;*/
   background-size: cover;
   overflow: hidden;
   position: relative;
 }
 
+@media (max-width: 991px) {
+  #intro {
+    width: 100%;
+    min-height: 200vh;
+    overflow: hidden;
+    position: relative;
+  }
+}
+
+@media only screen and (min-device-width : 375px)
+{
+  #intro {
+    width: 100%;
+    min-height: 160vh;
+    overflow: hidden;
+    position: relative;
+  }
+}
+
+@media only screen and (min-device-width : 414px){
+#intro {
+  width: 100%;
+  min-height: 170vh;
+  overflow: hidden;
+  position: relative;
+}
+}
+
+
 @media (min-width: 1024px) {
   #intro {
     background-attachment: fixed;
+    min-height: 140vh;
   }
 }
 
@@ -512,7 +535,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   align-items: center;
   flex-direction: column;
   text-align: center;
-  padding: 0 15px;
+  padding: 0 0px;
 }
 
 @media (max-width: 991px) {
