@@ -712,7 +712,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #about p {
   font-size: 14px;
   margin-bottom: 20px;
-  color: #fff;
+  color: ghostwhite;
 }
  
  #timer1{
@@ -769,7 +769,7 @@ body.mobile-nav-active #mobile-nav-toggle {
  p 
   {
     letter-spacing: 3px;
-    color: ghostwhite;
+    
 
   }
   
@@ -897,11 +897,10 @@ a {
 }
 
 
-
     
 .blue-bg {
   background-color: #F6F7FD;
-  color: red;
+  color: orangered;
   height: 100%;
 }
 
