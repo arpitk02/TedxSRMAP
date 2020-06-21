@@ -722,7 +722,8 @@ body.mobile-nav-active #mobile-nav-toggle {
   overflow: hidden;
   width: 100%;
   height:10%;
-  background-color:black;
+  min-height: 50vh;
+  background-color: #000;
 }
 
 #timer {
