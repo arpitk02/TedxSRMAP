@@ -1,5 +1,5 @@
 VANTA.TOPOLOGY({
-    el: "#timer1",
+    el: ".container1",
     mouseControls: true,
     touchControls: true,
     minHeight: 200.00,
